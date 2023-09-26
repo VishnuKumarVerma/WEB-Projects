@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>complete website design</title>
+  </head>
+  <body>
+    <section id="header">
+      <div class="container">
+        <img class="logo" src="logo.png" alt="logo_image" />
+        <div class="header-text">
+          <h1>
+            Hello Everyone! <br />
+            I am Vishnu Kumar Verma
+          </h1>
+          <span class="square"></span>
+          <p>
+            I am a Front End Wedsite Developer...
+          </p>
+          <button class="common-btn">Read More</button>
+
+          <div class="line">
+            <span class="line-1"></span><br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav id="sideNav">
+      <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT US</a></li>
+        <li><a href="">FEATURES</a></li>
+        <li><a href="">COURSES</a></li>
+        <li><a href="">OFFER</a></li>
+        <li><a href="">CONTACT US</a></li>
+      </ul>
+    </nav>
+
+    <img src="menu.png" alt="" id="menuBtn" />
+
+    <!-- about -->
+
+    <section id="about">
+      <div class="about-left-col">
+        <img src="about.png" alt="" />
+      </div>
+      <div class="about-right-col">
+        <div class="about-text">
+          <h1>About Section</h1>
+
+          <span class="square"></span>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
+            numquam quo culpa rerum, similique perspiciatis corporis mollitia
+            laborum necessitatibus nulla ratione sequi doloribus, ut ducimus
+            fugiat minus ea earum sit?
+          </p>
+          <br /><br />
+
+          <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            amet repellendus, distinctio ex nobis velit sit beatae voluptatum
+            vero tempora iste atque alias libero ullam expedita natus temporibus
+            enim a.
+          </h2>
+          <div class="line">
+            <span class="line-1"></span><br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+          </div>
+          <h3>----vishnu kumar verma</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- features -->
+
+    <section id="features">
+      <div class="features-row">
+        <div class="features-col">
+          <img src="pic-1.png" alt="" />
+          <h4>Learn Anywhere</h4>
+          <p>Switch between your computer, tablet or mobile device</p>
+        </div>
+        <div class="features-col">
+          <img src="pic-2.png" alt="" />
+          <h4>Expert Teachers</h4>
+          <p>Learn from industry experts who are passionater about teaching</p>
+        </div>
+        <div class="features-col">
+          <img src="pic-3.png" alt="" />
+          <h4>Unlimited Access</h4>
+          <p>
+            choose what you'd like to learn from our extinsive subscription
+            library
+          </p>
+        </div>
+      </div>
+
+      <div class="feature-btn">
+        <div class="line">
+          <span class="line-1"></span><br />
+          <span class="line-2"></span><br />
+          <span class="line-3"></span>
+        </div>
+        <button class="common-btn">Read More</button>
+      </div>
+    </section>
+
+    <!-- courses -->
+
+    <!-- <section id="courses">
+      <div class="container course-row">
+        <div class="course-left-col">
+          <div class="course-text">
+            <!-- <h1>Browse our top <br />courses</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
+              fugiat asperiores perspiciatis ratione, ut optio aperiam
+              laudantium maxime placeat, neque incidunt expedita commodi quas
+              error! Quasi veritatis sint nobis similique.
+            </p> -->
+    <!-- </div>
+        </div>
+        <div class="course-right-col">
+          <img src="course.png" alt="" />
+        </div>
+      </div>
+    </section> -->
+
+    <script>
+      var menuBtn = document.getElementById("menuBtn");
+      var sideNav = document.getElementById("sideNav");
+
+      sideNav.style.right = "-250px";
+      menuBtn.onclick = function () {
+        if (sideNav.style.right == "-250px") {
+          sideNav.style.right = "0";
+        } else {
+          sideNav.style.right = "-250px";
+        }
+      };
+    </script>
+  </body>
+</html>
