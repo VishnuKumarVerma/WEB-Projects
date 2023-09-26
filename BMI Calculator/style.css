@@ -1,0 +1,136 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-color: #e8f6ef;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.main {
+  margin: 40px 0px 0px 70px;
+  font-size: 2rem;
+  color: #4c4c6d;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.left-sec {
+  position: relative;
+  top: 3rem;
+  padding: 40px 50px;
+  flex: 30%;
+  margin: 20px;
+}
+
+.name-sec p {
+  font-size: 20px;
+  color: #4c4c6d;
+}
+
+input {
+  color: #4c3d3d;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.name-sec input {
+  width: 20rem;
+  height: 30px;
+  border: none;
+  background-color: #e8f6ef;
+  border-bottom: 2px solid #1b9c85;
+}
+
+.gender-sec p {
+  font-size: 20px;
+  color: #4c4c6d;
+}
+
+.gender-sec input {
+  width: 20rem;
+  height: 30px;
+  border: none;
+  background-color: #e8f6ef;
+  border-bottom: 2px solid #1b9c85;
+}
+.age-sec p {
+  font-size: 20px;
+  color: #4c4c6d;
+}
+
+.age-sec input {
+  width: 20rem;
+  height: 30px;
+  border: none;
+  background-color: #e8f6ef;
+  border-bottom: 2px solid #1b9c85;
+}
+.height-sec p {
+  font-size: 20px;
+  color: #4c4c6d;
+}
+
+.height-sec input {
+  width: 20rem;
+  height: 30px;
+  border: none;
+  background-color: #e8f6ef;
+  border-bottom: 2px solid #1b9c85;
+}
+.weight-sec p {
+  font-size: 20px;
+  color: #4c4c6d;
+}
+
+.weight-sec input {
+  width: 20rem;
+  height: 30px;
+  border: none;
+  background-color: #e8f6ef;
+  border-bottom: 2px solid #1b9c85;
+}
+
+.submit-btn {
+  text-align: center;
+  margin-top: 20px;
+  width: 20rem;
+  height: 40px;
+  background-color: #1b9c85;
+  font-size: 15px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.right-sec {
+  background-color: #ffe194;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-bottom: 30%30px;
+  position: relative;
+  top: 3rem;
+  flex: 70%;
+  margin: 20px;
+  color: white;
+  font-size: 2rem;
+}
+
+.last {
+  padding-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+  .container {
+    display: block;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .left-sec {
+    padding: 40px 0px;
+  }
+}

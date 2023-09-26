@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <header class="main">
+      BMI Calculator
+    </header>
+    <div class="container">
+      <div class="left-sec">
+        <div class="name-sec">
+          <p>Name</p>
+          <input type="text" name="" id="name" />
+        </div>
+
+        <div class="gender-sec">
+          <p>Gender</p>
+          <input type="text" id="gender" />
+        </div>
+
+        <div class="age-sec">
+          <p>Age</p>
+          <input type="number" name="" id="age" />
+        </div>
+
+        <div class="height-sec">
+          <p>Height(in cm)</p>
+          <input type="number" name="" id="height" />
+        </div>
+
+        <div class="weight-sec">
+          <p>Weight(in kg)</p>
+          <input type="number" name="" id="weight" />
+          <br /><br />
+        </div>
+        <input
+          type="submit"
+          value="submit"
+          onclick="result()"
+          class="submit-btn"
+        />
+      </div>
+
+      <div class="right-sec">
+        <p id="">Hello,</p>
+        <p id="info"></p>
+        <p id="about-bmi"></p>
+        <p id="conclude" class="last"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
